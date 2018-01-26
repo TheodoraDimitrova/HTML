@@ -1,0 +1,14 @@
+@media screen and (max-width: 640px) {
+    div.wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items:  center;
+        width: 100%;
+    }
+
+    div.wrap ul li {
+        width: 100%;
+
+    }
+}

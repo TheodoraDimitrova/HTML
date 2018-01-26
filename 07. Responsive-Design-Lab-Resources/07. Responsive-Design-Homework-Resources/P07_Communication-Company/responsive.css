@@ -1,0 +1,76 @@
+@media screen and (max-width: 1200px) {
+
+    section.content.bordered div.wrapper section.content-wrap.two-col {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.content.sponsorship.woodsmoke div.content-wrap.content-wrap-full {
+        width: 100vw;
+    }
+
+    section.content.sponsors div.content-wrap-full {
+        width: 100vw;
+    }
+
+    footer.main-foot > div.wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    footer.main-foot > div.wrapper > nav,
+    footer.main-foot > div.wrapper > address {
+        width: 550px;
+        margin-right: 30vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    * {
+        text-align: center;
+    }
+
+    section.hero-head {
+        background: #171720;
+    }
+
+    section.content.bordered div.wrapper section.content-wrap.two-col {
+        width: 100vw;
+    }
+
+    section.content.sponsorship.woodsmoke div.content-wrap.content-wrap-full {
+        width: 100vw;
+    }
+
+    a.large-text-link {
+        display: block;
+        width: 100vw;
+    }
+
+    footer.main-foot > div.wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+
+    footer.main-foot > div.wrapper > nav,
+    footer.main-foot > div.wrapper > address {
+        width: 100vw;
+    }
+
+    div.bottom-wrap,
+    div.copyright {
+        float: none;
+
+    }
+
+    body footer div.bottom div.wrapper div.bottom-wrap div.copyright {
+        border: solid 3px red;
+        float: none;
+        width: 100vw;
+
+    }
+}

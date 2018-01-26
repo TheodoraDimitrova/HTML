@@ -1,0 +1,27 @@
+.btn {
+    width: 100px;
+    height: 50px;
+    background: rgb(28, 184, 65);
+    color: white;
+    border-radius: 4px;
+    margin: 300px 800px;
+    transition: all 2s ease;
+    /* all всички properties изписани отдоло при hover да се изпълняват (all)  ---> а също така може по едно да се настройват,
+     а може и всяко едно да се изплънява за различно време обикновенно  се ползват секунди (0.4), после може да зададем ускорението (timming function)
+     начина по който се случва ускорението това е опционално също така може да зададем (delay) или след колко време след като сме отгоре да се изпълняват ефектите */
+
+    /* transition: кое -> за колко време -> как -> и кога*/
+    /*ease -  a slow start, then fast, then end slowly (this is default)*/
+    /*linear -  the same speed from start to end*/
+    /*ease-in - slow start*/
+    /*ease-out -  slow end*/
+    /*ease-in-out - slow start and end*/
+    /*cubic-bezier(n,n,n,n) - lets you define your own values in a cubic-bezier function*/
+}
+
+.btn:hover { /*тези properties се изпълняват при hover*/
+    width: 200px;
+    height: 100px;
+    background: #589ffd;
+    font-size: 25px;
+}

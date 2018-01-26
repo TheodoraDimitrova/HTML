@@ -1,0 +1,107 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,900";
+
+body {
+    background: rgba(5, 19, 107, 1);
+    background: -moz-linear-gradient(45deg, rgba(5, 19, 107, 1) 0%, rgba(107, 95, 93, 1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(5, 19, 107, 1)), color-stop(100%, rgba(107, 95, 93, 1)));
+    background: -webkit-linear-gradient(45deg, rgba(5, 19, 107, 1) 0%, rgba(107, 95, 93, 1) 100%);
+    background: -o-linear-gradient(45deg, rgba(5, 19, 107, 1) 0%, rgba(107, 95, 93, 1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(5, 19, 107, 1) 0%, rgba(107, 95, 93, 1) 100%);
+    background: linear-gradient(45deg, rgba(5, 19, 107, 1) 0%, rgba(107, 95, 93, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#05136b', endColorstr='#6b5f5d', GradientType=1);
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+main {
+     width: 900px;
+     height: 500px;
+     background-color: #cccccc;
+     margin: 0 auto;
+     margin-top: 50px;
+     border-radius: 20px;
+ }
+
+img,
+div.content {
+    display: inline-block;
+    vertical-align: top;
+}
+
+img {
+    margin-left: 50px;
+    position: relative;
+    top: -5px;
+    height: 534px;
+}
+
+
+.content {
+    text-align: right;
+    height: 500px;
+    width: 500px;
+}
+
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: grey;
+    font-weight: 900;
+    padding-top: 20px;
+
+}
+
+p {
+    font-size: 30px;
+    font-weight: 600;
+    color: #888888;
+    margin-top: 0;
+
+}
+form{
+    width: 600px;
+    margin-left: 50px;
+}
+
+.icon-input {
+    position: relative;
+}
+
+.icon-input input {
+    background: 0;
+    border: 0;
+    border-bottom: 1px solid #444;
+    padding-left: 45px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-top: 12px;
+    width: 130px;
+}
+
+.icon-input i {
+    position: absolute;
+    color: #444;
+    top: 8px;
+    font-size: 20px;
+    left: 6px;
+
+
+}
+
+.left,
+.right {
+    display: inline-block;
+    margin-right: 50px;
+}
+form > input{
+    position: relative;
+    left: -148px;
+    top: 70px;
+    background-color: #444;
+    color: white;
+    border-radius: 89px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: 600;
+}

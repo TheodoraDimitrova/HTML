@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster ");
+
+html {
+    font-size: 16px;
+}
+
+main {
+    text-align: center;
+    width: 800px;
+    padding: 20px;
+
+}
+
+img {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+
+}
+
+h1, h2, h3, a {
+    font-style: Normal;
+    color: #0088dd;
+    margin: 0;
+    text-align: center;
+    font-size: 2.1rem;
+    text-decoration: none;
+
+}
+
+h1 {
+    font-family: Georgia, Times, serif;
+    font-size: 3.5rem;
+    text-shadow: 2px 4px 4px #666666;    /* 1. value = The X-coordinate-->horizontal distance */
+                                          /*2. value = The Y-coordinate*/
+                                          /*3. value = The blur radius*/
+                                          /*4. value = The color of the shadow*/
+    padding-bottom: 10px;
+    text-transform: capitalize;
+
+}
+
+h2 {
+
+    font-family: Arial, sans-serif;
+    font-size: 2.3rem;
+    text-transform: none;
+    letter-spacing: 0.3rem;
+
+}
+
+main p:first-of-type:first-letter {
+    font-size: 3.8rem;
+    font-family: 'Lobster', cursive;
+    font-style: bold;
+    text-transform: uppercase;
+
+}

@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+@import url("https://fonts.googleapis.com/css?family=Anton");
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+}
+img{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: -3px;
+    width: 85%;
+    background: aquamarine;
+    height: 414px;
+    background: linear-gradient(to bottom, #6afdc9 0%,#42c9ca 100%);
+}
+
+main{
+    border-radius: 10px;
+    display: flex;
+    width: 60%;
+    box-shadow: 10px 3px 35px 6px #6afdc9;
+    margin: 0 auto;
+    margin-top: 100px;
+
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 900;
+}
+select{
+    width: 43%;
+    background: #42c9ca;
+    -webkit-appearance: none;
+    text-overflow: " ";
+}
+input{
+    display: block;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #42c9ca;
+
+
+}
+input::-webkit-input-placeholder{
+    color:#6afdc9;
+}
+div{
+    float: left;
+    width: 50%;
+
+}
+h1{
+    margin-top: 50px;
+    font-size: 31px;
+    font-weight: 900;
+}
+h2{
+    font-weight: 900;
+}
+button{
+    text-transform: uppercase;
+    background: white;
+    color: turquoise;
+    padding: 10px;
+    border-radius: 25px;
+    border-color: #6afdc9;
+    margin-top: 40px;
+    width: 30%;
+
+}
+button:hover{
+    background: #6afdc9;
+    color: white;
+}
+select#size{
+    color: #FFFFFF;
+}

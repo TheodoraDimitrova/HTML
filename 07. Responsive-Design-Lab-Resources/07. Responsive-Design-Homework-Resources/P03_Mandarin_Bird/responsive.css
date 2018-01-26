@@ -1,0 +1,51 @@
+@media screen and (max-width: 730px) {
+
+    body div#wrapper main section {
+        width: 90%;
+        float: none;
+    }
+
+    body div#wrapper main aside {
+        float: none;
+        width: 92%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    body div#wrapper main section {
+        display: flex;
+        flex-direction: column;
+        float: none;
+    }
+
+    body div#wrapper main section div {
+        display: flex;
+        flex-direction: column;
+        float: none;
+        height: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    body div#wrapper main section div img {
+        padding: 0 300px;
+        background: rgb(183, 204, 136);
+        display: block;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        width: 100%;
+    }
+
+    header{
+        margin-bottom: 200px;
+    }
+
+}

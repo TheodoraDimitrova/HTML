@@ -1,0 +1,105 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+header {
+    position: relative;
+    margin: -16px;
+    padding: 30px;
+    background-image: url(img/header-bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 1;
+    height: 700px;
+    color: white;
+
+}
+
+header:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(79, 82, 91, 0.7);
+}
+nav{
+    float: right;
+    margin-right: 70px;
+    margin-top: 0;
+    position: relative;
+
+}
+nav ul li{
+    list-style: none;
+    display: block;
+}
+header nav ul li {
+
+    display: inline-block;
+}
+header nav ul li a{
+    color: white;
+    display: block;
+    margin-right: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+
+}
+nav ul li a:visited{
+    color: white;
+}
+header h3{
+    position: relative;
+    width: 25%;
+    float: left;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 900;
+}
+header h1{
+    text-align: center;
+    position: relative;
+    line-height: -24px;
+    font-size: 24px;
+
+    top: 24%;
+
+}
+span a{
+    display: inline-block;
+
+}
+span{
+    margin-left: 10px;
+}
+.fa-4x {
+    font-size: 2em;
+    position: relative;
+    left: 15%;
+}
+.fa-2x{
+    font-size: 2em;
+    /* margin: 4px; */
+    margin-bottom: 61px;
+}
+div#conteiner{
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    height: 30%;
+    width: 100%;
+}
+div#conteiner > div{
+    vertical-align: top;
+    display: inline-block;
+    width: 20%;
+    margin-left: 60px;
+}

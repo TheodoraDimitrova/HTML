@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*•	The layout is body-centered and should be 890px.*/
+/*•	Font: Calibri Light / Verdana / sans-serif.*/
+/*•	Border color: #a5b2b3;*/
+/*•	There are 4 articles with image fully linkable and hover effect is transparency 0.4 of all the images.*/
+
+main {
+    border: solid 3px #a5b2b3;
+    width: 890px;
+    margin: 50px auto;
+}
+
+main article {
+    display: inline-block;
+    width: 22%;
+    margin: 1%;
+    vertical-align: top;
+}
+
+main article:hover {
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+main article img {
+    width: 100%;
+}
+
+main article h2 {
+    font-size: 22px;
+    height: 60px;
+    text-align: center;
+    font-family: Calibri Light, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+main article p {
+    margin-top: 30px;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+}

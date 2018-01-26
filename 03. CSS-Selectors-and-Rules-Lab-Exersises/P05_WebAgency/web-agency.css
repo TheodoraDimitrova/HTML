@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #858fa0;
+    color: #333333;
+    font-family: "Lato" ,sans-serif;
+    font-size: 16px;
+}
+nav ul.nav-primary li.nav-item{
+    display: inline;
+    margin-right: 2%;
+}
+.nav-primary{
+    margin-left: 70%;
+    margin-top: -20px;
+}
+.nav-primary li a {
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+
+}
+.nav-primary li:last-of-type a{
+    background-color: #27dcc4;
+    border-radius: 10px;
+}
+nav img.nav-brand{
+    width: 15%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+h1.header-title{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: white;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+h2.header-subtitle{
+    text-align: center;
+    color: #7CB3E9;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-top: 24px;
+    font-weight: 300;
+
+}
+div#button-container{
+    background-color: #27dcc4;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 2%;
+    width: 12%;
+    margin-left: 46%;
+    height: 40px;
+}
+a.header-btn.cta-btn{
+    text-transform: capitalize;
+    color: white;
+    display: block;
+    padding-top: 10px;
+}
+ul.header-services li{
+    list-style: none;
+}
+
+li.service:first-of-type article{
+    color: #FFFFFF;
+    margin-top: 50px;
+    display: inline-block;
+    width: 24%;
+    float: left;
+    padding-left: 90px;
+}
+li.service:nth-of-type(2) article{
+    color: #FFFFFF;
+    width: 24%;
+    padding-left: 90px;
+    margin-top: 50px;
+    position: absolute;
+    left: 35%;
+
+}
+li.service:nth-of-type(3) article{
+    color: #FFFFFF;
+    text-align: left;
+    width: 24%;
+    padding-left: 90px;
+    margin-top: 50px;
+    float: right;
+}
+a.service-link{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 34px;
+    display: block;
+}
+p.service-intro{
+    font-size: 13px;
+    /* background-color: black; */
+    width: 74%;
+
+}
+li.service article h2.service-title{
+    display: block;
+    width: 52%;
+    /* font-weight: 300; */
+    padding-bottom: 30px;
+    padding-left: 15px;
+}
+li.service article:hover{
+    background-color: #27dcc4;
+}

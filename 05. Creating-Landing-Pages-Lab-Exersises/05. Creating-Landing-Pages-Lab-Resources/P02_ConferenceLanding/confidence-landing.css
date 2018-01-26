@@ -1,0 +1,330 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+
+#ttest {
+    color: #ffffff;
+    color: #3c3f49;
+    color: #fa692e;
+}
+
+body header#header {
+    background: linear-gradient(rgba(60, 63, 73, 0.999), rgba(60, 63, 73, 0.5)),
+    url("img/header-bg.png") center;
+    background-size: cover;
+    color: white;
+}
+
+header#header {
+    padding: 20px;
+}
+
+body header#header ul.header-menu {
+    float: right;
+}
+
+body header#header ul.header-menu li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+body header#header ul.header-menu li a:hover {
+    color: #fa692e;
+}
+
+body header#header ul.header-menu li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+p#lead {
+    display: inline-block;
+}
+
+p#lead a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header section#welcome h1 {
+    text-align: center;
+    padding-right: 40px;
+    display: block;
+    margin: 150px auto;
+    font-size: 1.3rem;
+    width: 20%;
+}
+
+header section#welcome h1 i {
+    font-size: 2rem;
+    display: inline-block;
+    padding-left: 30px;
+}
+
+header section#welcome-list {
+    display: block;
+    margin: auto;
+}
+
+header section#welcome-list ul li {
+    margin: 2%;
+    display: inline-block;
+    width: 19%;
+    text-align: justify;
+    vertical-align: top;
+    padding-bottom: 50px;
+
+}
+
+header section#welcome-list ul li:hover {
+    padding-bottom: 40px;
+    border-bottom: solid 10px #fa692e;
+    cursor: pointer;
+}
+
+header section#welcome-list ul li i {
+    margin-bottom: 20px;
+}
+
+main > section#opinion {
+    margin: 5px 0;
+    position: relative;
+    height: 400px;
+}
+
+main > section#opinion h3 {
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    display: inline-block;
+    width: 13%;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+main > section#opinion p#quote {
+    position: absolute;
+    left: 20%;
+    top: 35%;
+    margin: 30px;
+    text-transform: capitalize;
+}
+
+main > section#opinion article p#opinion-main {
+    position: absolute;
+    left: 40%;
+    top: 15%;
+    display: inline-block;
+    width: 24%;
+}
+
+main > section#opinion article p#opinion-end {
+    position: absolute;
+    left: 40%;
+    top: 70%;
+    display: inline-block;
+    width: 24%;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+main > section#opinion article hr {
+    position: absolute;
+    left: 40%;
+    top: 65%;
+    display: inline-block;
+    width: 24%;
+}
+
+main > section#opinion article img {
+    position: absolute;
+    left: calc(100% - 350px);
+    top: 15%;
+    height: 270px;
+}
+
+main > section#opinion article div#orange-box {
+    left: calc(100% - 250px);
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    background: rgba(250, 105, 56, 0.9);
+    color: #fa692e;
+}
+
+main section#schedule {
+    background: #3c3f49;
+    height: 500px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 30px 10%;
+}
+
+main section#schedule h3 {
+    font-size: 1.4rem;
+    display: inline-block;
+    width: 30%;
+    margin: 30px 0 50px auto;
+}
+
+main section#schedule ul {
+    margin: auto;
+    width: 100%;
+    column-count: 2;
+}
+
+main section#schedule li i {
+    background: #fa692e;
+    border-radius: 50%;
+    padding: 15px;
+    color: #ffffff;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+main section#schedule li {
+    display: inline-block;
+    padding: 30px;
+}
+
+main section#schedule li span.event-title {
+    display: inline-block;
+    margin-left: 10px;
+    text-transform: capitalize;
+    color: gray;
+}
+
+main section#speakers {
+    position: relative;
+    padding: 30px 200px 10px 200px;
+}
+
+main section#speakers h3 {
+    display: inline-block;
+    font-size: 1.4rem;
+    width: 30%;
+    font-weight: bold;
+}
+
+main section#speakers p#title-side {
+    display: inline-block;
+    width: 35%;
+    position: absolute;
+    top: 4%;
+    left: 50%;
+}
+
+main section#speakers ul {
+    margin: auto;
+    display: block;
+    width: 80%;
+}
+
+main section#speakers li {
+    display: inline-block;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    box-shadow: 10px 10px 15px -5px rgba(0, 0, 0, 0.25);
+}
+
+main section#speakers p.name {
+    padding: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+main section#speakers i:hover {
+    color: #fa692e;
+    cursor: pointer;
+}
+
+main section#speakers p.title {
+    color: #fa692e;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+main section#special-events {
+    padding: 10% 15% 10%;
+    background: #3c3f49;
+}
+
+main section#special-events div#special-event {
+    border: solid 2px #ffffff;
+    height: 500px;
+}
+
+main section#special-events div#special-event h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 10%;
+}
+
+main section#special-events div#special-event p {
+    width: 40%;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.3rem;
+    padding-top: 5%;
+    padding-left: 30%;
+    margin-bottom: 30px;
+}
+
+main section#special-events div#special-event form {
+    display: inline-block;
+    width: 15%;
+    height: 5%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-left: 30%;
+    border-bottom: solid 7px #fa692e;
+    resize: none;
+    background: #3c3f49;
+}
+
+main section#special-events div#special-event button {
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1rem;
+    margin-left: 10%;
+    border: solid 3px #fa692e;
+    text-transform: uppercase;
+    background: #fa692e;
+    padding: 7px 15px;
+    border-radius: 20px;
+}
+
+footer#footer {
+    position: relative;
+    background: #292A2F;
+    height: 20px;
+    color: white;
+    padding: 40px;
+    text-transform: uppercase;
+}
+
+footer#footer p#footer-copy {
+    float: right;
+    width: 200px;
+    clear: both;
+
+}
+
+
+

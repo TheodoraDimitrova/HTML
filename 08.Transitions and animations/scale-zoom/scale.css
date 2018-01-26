@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+div.fond{
+    text-align: center;
+    width: 100%;
+    position:absolute;
+    padding-top:85px;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#00506b;
+
+}
+
+div.style_prevu_kit-1{
+    background: #cb2025;
+}
+div.style_prevu_kit-2{
+    background: #f8b334;
+}
+div.style_prevu_kit-3{
+    background: #97bf0d;
+}
+div.style_prevu_kit-4{
+    background: #00a096;
+}
+div.style_prevu_kit-5{
+    background: #93a6a8;
+}
+.fond div
+{
+    display:inline-block;
+    border:0;
+    width:186px;
+    height:210px;
+    position: relative;
+    transition: all 200ms ease-in;
+    transform: scale(1);
+
+}
+.fond div:hover
+{
+    box-shadow: 0 0 150px #000000;
+    z-index: 2;
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}

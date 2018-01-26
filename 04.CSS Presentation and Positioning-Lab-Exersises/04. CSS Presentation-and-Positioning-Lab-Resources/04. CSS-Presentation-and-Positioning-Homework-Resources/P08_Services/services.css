@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*size: 56px for the main heading, 16px for the texts).*/
+
+/*Column width: 220px with all margins + paddings.*/
+
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    background: #F0F0E8;
+}
+
+header h1 {
+    font-size: 56px;
+    color: #009288;
+    text-align: center;
+    margin: 30px;
+}
+
+header p {
+    color: #788188;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    color: #788188;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+main article {
+    width: 220px;
+    display: inline-block;
+    padding: 10px;
+    border-left: solid  10px #F0F0E8;
+}
+
+main article:hover {
+    background: #ffffff;
+    border-left: solid  10px #009288;
+    cursor: pointer;
+}
+
+main article img {
+    display: block;
+    margin: 20px auto;
+}
+
+main article h3 {
+    font-size: 18px;
+    color: #788188;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main article p {
+    color: #788188;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+}

@@ -1,0 +1,34 @@
+body {
+    font-family: "Lao UI", sans-serif;                           /*shrif na texta*/
+}
+
+nav {
+    padding: 0;
+    height: 40px;
+    line-height: 30px;
+    background-color: #84b3ad;
+
+}
+
+li {
+    width: 100px;
+    margin: 0 5px;                                       /*otgore i otdolo po 0 ,a ot lqvo i otdqsno po 5*/
+    padding: 5px 0;
+    cursor: pointer;                                     /* kursora podskazva na potrebitelq kakvo moje da pravi*/
+    color: rgb(255 ,255, 255);
+    text-align: center;
+    display: inline;
+
+}
+li :hover{                                               /*ocvetqvane na lito kogato minesh vurhu nego*/
+    background-color: #135e3e;
+    padding: 5px 0;
+
+}
+li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+ul{
+    background-color: rgb(132, 179, 173);
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Lemon');
+
+/*24px for the main title, 22px for price of watches, 15px for info of the watches, 15px for the button*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: Lemon, Arial, sans-serif;
+    background: #602C74;
+}
+
+body main{
+    background: #FFAE31;
+    width: 900px;
+    margin: 60px auto;
+    border-radius: 35px;
+}
+
+body main h1{
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+body main article{
+    position: relative;
+    border-radius: 15px 0 15px 0;
+    vertical-align: top;
+    display: inline-block;
+    height: 450px;
+    margin: 35px;
+    width: 220px;
+    background: #5F2055;
+}
+
+body main article h2{
+    color: #ffffff;
+    text-align: center;
+    font-size:22px;
+    padding: 10px;
+}
+
+body main article h3{
+    font-size:15px;
+    color: #FFAE31;
+    text-align: center;
+}
+
+body main article img{
+    border: solid 3px #826B73;
+    border-radius: 50%;
+    width: 90%;
+    margin: 5px;
+    font-size:15px;
+    color: #FFAE31;
+    text-align: center;
+}
+
+body main article ul{
+    list-style-type: none;
+}
+
+body main article ul li{
+    font-size:15px;
+    padding-left: 10px;
+    color: #ffffff;
+}
+
+body main article button{
+    position: absolute;
+    top: 85%;
+    left: 10px;
+    background-color: #fff;
+    color: #9151F0;
+    width: 90%;
+    padding: 10px;
+    font-size:15px;
+    font-family: Lemon,sans-serif;
+    font-style: italic;
+    border: solid 1px gray;
+    border-radius: 25px;
+}

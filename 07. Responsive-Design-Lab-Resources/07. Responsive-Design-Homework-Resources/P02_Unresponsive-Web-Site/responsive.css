@@ -1,0 +1,50 @@
+@media screen and (max-width: 960px) {
+    body {
+        margin: 0;
+    }
+
+    #wrapper {
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 780px ) {
+
+    body div#wrapper header nav ul {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body div#wrapper header nav ul li {
+        width: 90%;
+    }
+
+    body div#wrapper header nav ul {
+        flex-direction: column;
+    }
+
+    body div#wrapper aside{
+        display: flex;
+        width: 100%;
+    }
+    body div#wrapper aside  div{
+        width: 50%;
+    }
+    body div#wrapper section {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px ) {
+    body div#wrapper aside{
+        display: flex;
+        width: 100%;
+    }
+
+    body div#wrapper aside  div{
+        width: 100%;
+    }
+}

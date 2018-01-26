@@ -1,0 +1,166 @@
+body {
+    background-color: rgb(69, 84, 84);
+}
+
+nav {
+    padding: 0;
+    word-spacing: 2.4em;
+}
+
+li {
+    width: 100px;
+    margin: 0 5px; /*otgore i otdolo po 0 ,a ot lqvo i otdqsno po 5*/
+    padding: 5px 0;
+    cursor: pointer; /* kursora podskazva na potrebitelq kakvo moje da pravi*/
+    color: rgb(42, 111, 111);
+    text-align: center;
+    display: inline;
+
+}
+
+li :hover { /*ocvetqvane na lito kogato minesh vurhu nego*/
+    background-color: rgb(42, 111, 111);
+    padding: 5px 0;
+    word-spacing: 0.5em;
+
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(0, 153, 153);
+}
+
+ul {
+    background-color: rgb(69, 84, 84);
+}
+
+header h4 {
+    color: rgb(0, 153, 153);
+    text-align: right;
+    padding: 0;
+}
+
+h1 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    color: #ffffff;
+    font-weight:normal;
+    font-size: 100px;
+    line-height: 0.8;
+    padding: 10px;
+
+}
+
+h4 {
+    word-spacing: 0.2em;
+}
+
+header h3 {
+    color: rgb(0, 153, 153);
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: normal;
+    line-height: 10.8px;
+}
+
+header p {
+    text-align: center;
+    color: #84b3ad;
+}
+
+.bnt {
+    text-align: center
+
+
+}
+
+button a {
+    background-color: rgb(69, 84, 84);
+    border-radius: 0;
+    color: white;
+    padding: 13px 38px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: hand;
+}
+
+button a:hover {
+    background-color: white;
+    color: #84b3ad;
+}
+main h3{
+    text-align: left;
+}
+main p{
+    text-align: left;
+    font-size: 18px;
+}
+img {
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#container {
+    height: 350px;
+    text-align: center;
+    background-color: white;
+    margin: 0;
+    width: 87%;
+    border: 3px solid rgb(69, 84, 84);
+    padding: 87px;
+}
+
+#left {
+    float: left;
+    display: inline-block;
+    padding: 0;
+    width: 300px;
+    text-align: center;
+}
+
+#center {
+    display: inline-block;
+    padding: 0;
+    width: 300px;
+    text-align: left;
+
+}
+
+#right {
+    float: right;
+    display: inline-block;
+    padding: 0;
+    width: 300px;
+    text-align: center;
+}
+
+
+main h4{
+    width: auto;
+    float: left;
+    font-size: 20px;
+ color: rgb(0, 153, 153)
+}
+
+footer p{
+
+    float: left;
+    width: 30%;
+    display: inline;
+    white-space: nowrap;
+    word-spacing: 0;
+    text-align: left;
+}
+footer ul{
+    float: right;
+    width: 60%;
+}
+footer li{
+    display: inline;
+
+}

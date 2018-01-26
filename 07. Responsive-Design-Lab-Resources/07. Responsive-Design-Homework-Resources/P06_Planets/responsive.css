@@ -1,0 +1,80 @@
+﻿@media screen and (max-width: 1000px) {
+
+    header {
+        padding-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body div#wrapper div#logoarea,
+    body div#wrapper div#header-area-right {
+        width: 100%;
+        float: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body div#wrapper div#header-area-right div#search-form {
+        margin-top: 20px;
+    }
+
+    body section.contentblock div#publicphotos div#p-albums-items{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    body section.contentblock div#publicphotos div#p-albums-items div.p-photos-block{
+        width: 30%;
+    }
+}
+
+
+@media screen and (max-width: 756px) {
+
+    header {
+        padding-bottom:
+                35vh;
+
+    }
+    body div#wrapper div#header-area-right nav ul#nav-menu{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    body div#wrapper div#header-area-right nav ul#nav-menu li a
+    {
+        display: block;
+        width: 100vh;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    body div#wrapper div#header-area-right div#search-form {
+        width: 70%;
+
+    }
+
+    body section.contentblock div#publicphotos div#p-albums-items{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    body section.contentblock div#publicphotos div#p-albums-items div.p-photos-block{
+        width: 40%;
+    }
+    body section.contentblock div#publicphotos div#p-albums-items div.p-photos-block a.aimgi{
+        width: 100%;
+        padding: 0;
+    }
+
+    body section.contentblock div#publicphotos div#p-albums-items div.p-photos-block a.aimgi img{
+        height: 100%;
+    }
+}

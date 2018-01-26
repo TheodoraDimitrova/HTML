@@ -1,0 +1,85 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Lato, sans-serif;
+}
+main{
+    box-sizing: border-box;
+    width: 1200px;
+    margin-left: 100px;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    width: 70%;
+    margin-left: -22px;
+}
+.left h1{
+    font-size: 35px;
+    margin-top: 20px;
+}
+.left p{
+    font-size: 13px;
+    width: 819px;
+    margin-top: 25px;
+    margin-bottom: -30px;
+}
+
+div.control-group{
+    width: 50%;
+    margin-top: 20px;
+}
+.left form{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+}
+div.inputs input{
+    width: 380px;
+    height: 40px;
+}
+label.control-label{
+    font-size: 15px;
+}
+form label{
+    width: 100%;
+    margin-top: 20px;
+}
+form textarea{
+    width: 800px;
+    height: 110px;
+}
+.left button{
+    background-color: #ff921a;
+    color: white;
+    width: 135px;
+    height: 50px;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: 26px;
+    border: none;
+}
+.right{
+    width: 20%;
+    margin-top: 25px;
+    display: inline-grid;
+
+}
+.right form div{
+    position: relative;
+}
+.right p.aside{
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-bottom: 1px solid;
+    padding-bottom: 17px;
+}
+.right span{
+    color: #34d4dc;
+}

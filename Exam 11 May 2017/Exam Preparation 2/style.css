@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+#wrapper {
+
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+.services {
+    background-image: url(img/header-bg.jpg);
+    height: 900px;
+    margin-top: -60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 1px;
+}
+
+.services nav {
+    padding: 10px 0;
+    position: relative;
+    top: 100px;
+}
+
+.services nav ul {
+    list-style: none;
+    margin: 0 2px;
+    padding: 11px;
+    padding-right: 124px;
+    display: flex;
+    width: 43%;
+    float: right;
+    justify-content: space-around;
+}
+
+.services nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.services nav ul li a:hover {
+
+}
+
+.services h1 {
+    text-align: center;
+    color: white;
+    font-size: 69px;
+    margin-top: -41px;
+    text-transform: uppercase;
+    font-weight: 600;
+    word-spacing: -9px;
+}
+
+.services h3 {
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 40px;
+    margin-top: 357px;
+}
+
+.services button {
+    background-color: yellow;
+    position: relative;
+    width: 201px;
+    height: 64px;
+    left: 50%;
+    margin-top: -15px;
+    margin-left: -100px;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+}
+
+.portfolio {
+    width: 100%;
+    background-color: #d6d8e2;
+    margin-top: -111px;
+    padding-top: 50px;
+    height: 1095px;
+}
+
+section .header {
+    text-align: center;
+}
+
+.portfolio div.images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.portfolio header.header h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.portfolio p {
+    font-style: italic;
+    color: #444;
+    margin-bottom: 50px;
+    margin-top: -18px;
+}
+
+.portfolio div.caption {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    margin-top: -4px;
+    height: 88px;
+}
+
+.about {
+    /*background-color: #FFFAEB;*/
+    background-color: pink;
+    height: 1100px;
+}
+
+.about main.about {
+    display: flex;
+    margin: 100px;
+    height: 741px;
+
+}
+
+.about header.header {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.about div.left {
+    text-align: right;
+    padding-right: 50px;
+}
+
+
+.about div.middle div {
+    background-color: yellow;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+.about div.middle div p {
+    width: 83px;
+    display: inline-block;
+    position: relative;
+    top: 44px;
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+
+.about div.middle img,
+.about div.middle div {
+    border-radius: 117px;
+    border: 2px solid #cccccc;
+    margin-bottom: 70px;
+}
+
+.about div.middle img::after {
+    border-left: thick solid #ff0000;
+
+}
+
+.about div.right {
+    text-align: left;
+    position: relative;
+    top: 290px;
+    padding-left: 50px;
+}
+
+.about div.left h3,
+.about div.right h3 {
+    font-weight: 900;
+    line-height: 10px;
+}
+.team{
+    background: white;
+    text-align: center;
+    height: 100px;
+}
+.team img{
+    margin-right: 20px;
+
+    margin-top: 24px;
+}
+.contact{
+    background-image: url(img/map-image.png);
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    padding: 46px;
+    box-sizing: border-box;
+    margin: 0;
+}
+.contact header.header h2{
+    color: white;
+    font-size: 40px;
+}
+.contact header.header p{
+    color: #ccc;
+    font-size: 16px;
+    font-style: italic;
+}
+.contact main.form{
+    width: 60%;
+    height: 200px;
+    margin: 0 auto;
+}
+.contact form input{
+    font-size: 14px;
+    padding: 10px;
+    width: 30%;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #cccccc;
+}
+.contact form.left{
+    width: 30%;
+    float: left;
+}
+.contact form.left input{
+    font-size: 14px;
+    padding: 10px;
+    width: 166%;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+
+.contact button{
+    position: relative;
+    left: 546px;
+    width: 15%;
+    height: 58px;
+    background-color: yellow;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+}
+.contact textarea{
+    position: relative;
+    left: 189px;
+    bottom: 2px;
+    font-size: 17px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #ccc;
+}

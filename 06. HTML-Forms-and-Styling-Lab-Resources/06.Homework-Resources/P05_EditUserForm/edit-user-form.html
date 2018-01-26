@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit User Form</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="edit-user-form.css">
+</head>
+<body>
+<header>
+    <h1>edit user</h1>
+</header>
+
+<main>
+
+    <form action="#">
+        <label for="username">Username</label>
+        <input type="text" id="username">
+
+        <label for="email">Email</label>
+        <input type="text" id="email">
+
+        <label for="phone">Phone number</label>
+        <input type="text" id="phone">
+
+        <fieldset id="user-type">
+            <legend>User type</legend>
+            <label> <input type="radio" name="broadband" value="Mr.">Broadband</label>
+            <label> <input type="radio" name="radio" value="Mrs."> Radio</label>
+        </fieldset>
+
+        <label for="ch-password">Change Password</label>
+        <input type="text" id="ch-password">
+
+        <fieldset id="group">
+            <legend>Groups</legend>
+            <label> <input type="checkbox" name="all-groups" value="all-groups">All groups</label>
+            <label> <input type="checkbox" name="group1" value="group1">Group 1</label>
+            <label> <input type="checkbox" name="group2" value="group2">Group 2</label>
+            <label> <input type="checkbox" name="group3" value="group3">Group 3</label>
+            <label> <input type="checkbox" name="group4" value="group4">Group 4</label>
+        </fieldset>
+        <p>Contacts</p>
+        <a href="#">See Contacts list </a>
+
+        <button id="cancel">CANCEL</button>
+        <button id="save">SAVE</button>
+    </form>
+</main>
+</body>
+</html>

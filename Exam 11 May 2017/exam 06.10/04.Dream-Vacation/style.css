@@ -1,0 +1,154 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900";
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: Lato, sans-serif;
+    
+}
+.header{
+    background-image: url("images/background.jpg");
+    height: 900px;
+}
+.header header {
+
+    display: flex;
+}
+.header header nav {
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 320px;
+}
+
+.header header nav ul {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.header header nav ul li {
+    list-style: none;
+}
+
+.header header img {
+    margin-left: 250px;
+    padding: 10px;
+}
+
+.header header > a {
+
+    padding-top: 20px;
+    font-weight: bold;
+    color: #0a0a0a;
+    text-decoration: none;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.header .content h1 {
+    text-align: center;
+    margin-top: 324px;
+    font-size: 60px;
+    color: white;
+    font-weight: 300;
+}
+
+.header .content p {
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+}
+.offers{
+    background-color: #F5F5F5;
+    height: 900px;
+}
+.offers header{
+    text-align: center;
+    padding: 50px;
+}
+.offers header h1{
+    font-size: 30px;
+}
+.offers header p{
+    font-size: 16px;
+    color: #ccc;
+    margin-top: 18px;
+}
+.offers div.images{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+}
+.offers img{
+    width: 300px;
+}
+.offers figure{
+    margin-bottom: 30px;
+}
+.offers figcaption{
+    line-height: 50px;
+    background-color: white;
+    padding: 0 15px;
+}
+.offers figcaption span{
+    float: right
+}
+.customers header{
+    text-align: center;
+    padding: 50px;
+}
+.customers header h1{
+    font-size: 30px;
+}
+.customers header p{
+    font-size: 16px;
+    color: #ccc;
+    margin-top: 18px;
+}
+.customers div.users{
+    text-align: center;
+    width: 30%;
+}
+.customers div.content{
+    display: flex;
+    justify-content: space-around;
+}
+.customers img{
+    border-radius: 55px;
+    margin-bottom: 25px;
+}
+.customers h3{
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+.customers div.content p{
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+}
+footer{
+    margin-top: 100px;
+    margin-left: 35px;
+
+}
+footer ul{
+    display: inline-flex;
+    width: 30%;
+    justify-content: space-around;
+    float: right;
+    margin-bottom: 3px;
+}
+footer ul li{
+    list-style: none;
+}

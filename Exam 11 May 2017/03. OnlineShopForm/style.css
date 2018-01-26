@@ -1,0 +1,87 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat";
+body {
+    /*height: 300px;*/
+    /*width: 600px;*/
+    /*border: 1px solid #999;*/
+    background: #050D17;
+    background: -moz-linear-gradient(-45deg, #050D17 41%,#44524A 84%);
+    background: -webkit-linear-gradient(-45deg, #050D17 41%,#44524A 84%);
+    background: linear-gradient(135deg, #050D17 41%,#44524A 84%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#050D17 41%',  endColorstr='undefined', GradientType=1 );
+
+}
+
+
+
+main{
+    width: 900px;
+    height: 500px;
+    background-color: #E7E7E7;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    font-family: Montserrat, sans-serif;
+}
+
+img,
+div.content {
+    display: inline-block;
+    vertical-align: top;
+}
+.content p{
+    width: 84%;
+}
+img{
+    margin-left: 50px;
+    position: relative;
+    top: 81px;
+    height: 330px;
+    padding-right: 8px;
+}
+div.content{
+    width: 66%;
+    height: 412px;
+    margin-top: 56px;
+}
+div.content div.left,
+div.content div.right{
+    width: 50%;
+    float: left;
+    height: 250px;
+}
+.content div.icon-input input{
+    margin-bottom: 32px;
+}
+.icon-input i{
+    position: absolute;
+    color: #444;
+    top: 8px;
+    font-size: 20px;
+    left: 6px;
+}
+.icon-input {
+    position: relative;
+}
+.icon-input input{
+    background: 0;
+    border: 0;
+    border-bottom: 2px solid #444;
+    padding-left: 45px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-top: 12px;
+    width: 200px;
+}
+form>input{
+
+    position: relative;
+    left: 431px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 10px 29px;
+    text-transform: uppercase;
+    border-radius: 23px;
+    border: none;
+    bottom: 32px;
+}

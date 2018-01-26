@@ -1,0 +1,20 @@
+form{
+    width: 300px;
+}
+form,
+input,
+textarea{
+    box-sizing: border-box;
+}
+label,input,textarea,select{
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+}
+label{
+    color: #2D2D2D;
+    font-size: 15px;
+    word-wrap: break-word;/*Позволява на дълги думи да могат да се пренасят автоматично на нов ред
+                            когато стигнат до края на полето (break)..*/
+}
+

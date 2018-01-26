@@ -1,0 +1,218 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,900";
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+    background-color: #FFFFFF;
+    margin: 20px auto;
+    width: 960px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+
+    color: #444444;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.solo-wireless {
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.solo-wireless div {
+    width: 30%;
+}
+
+.solo-wireless img {
+    width: 60%;
+}
+
+.solo-wireless div h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 100;
+    color: black;
+}
+
+.solo-wireless div p {
+
+    width: 100%;
+    font-size: 13px;
+    margin-top: 60px;
+    margin-bottom: 79px;
+}
+
+.solo-wireless div a {
+    background-color: red;
+    text-decoration: none;
+    padding: 7px 35px;
+    border-radius: 31px;
+    left: 24px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.solo-wireless div a:hover {
+    background: darkred;
+    cursor: pointer;
+}
+
+.powerbeats {
+    background-color: #E2E2E2;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.powerbeats img {
+    width: 45%;
+    padding: 30px;
+}
+
+.powerbeats div {
+    width: 45%;
+}
+
+.powerbeats h1 {
+    text-transform: uppercase;
+    font-size: 43px;
+    font-weight: 100;
+    padding-left: 60px;
+}
+
+.powerbeats div h3 {
+    text-transform: uppercase;
+    font-weight: 100;
+    padding-left: 132px;
+    margin-top: -32px;
+    font-size: 13px;
+
+}
+
+.powerbeats div span {
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.powerbeats div p {
+    font-size: 14px;
+    padding-right: 74px;
+    margin-top: 60px;
+}
+
+.powerbeats div span {
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.powerbeats div a {
+    background-color: red;
+    text-decoration: none;
+    padding: 7px 25px;
+    border-radius: 31px;
+    position: relative;
+
+    left: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.try-for-free {
+    background-color: #444444;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 5px;
+}
+
+.try-for-free img {
+    height: 60px;
+    vertical-align: middle;
+}
+
+.try-for-free h3 {
+    font-weight: 100;
+}
+
+.try-for-free p {
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+    font-size: 19px;
+}
+
+.give-live {
+    display: flex;
+    padding: 0;
+    background-color: #bacee6 ;
+}
+
+.give-live img,
+.give-live div {
+    flex-basis: 50%;
+    height: 400px;
+}
+
+.give-live  img {
+    display: flex;
+}
+
+.give-live div img {
+    float: right;
+    max-height: 90%;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.give-live h4,
+.give-live p{
+    display: inline-block;
+}
+.give-live h4{
+    margin: 0;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 90px;
+    width: 20%;
+    padding-left: 65px;
+    padding-top: 29px;
+    font-weight: 900;
+    line-height: 79px;
+    letter-spacing: 2px;
+}
+.give-live span{
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.give-live p{
+    position: relative;
+    top: 60px;
+    font-size: 30px;
+    letter-spacing: -3px;
+    right: 97px;
+}
+footer{
+    text-align: center;
+}

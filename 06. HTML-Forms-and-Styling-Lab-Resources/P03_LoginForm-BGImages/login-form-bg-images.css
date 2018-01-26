@@ -1,0 +1,73 @@
+body{
+    background: #927057;
+    color: #FFFFFF;
+    font-family:"Oxygen",sans-serif;
+    /*font-size: ;*/
+    margin: 0;
+    padding: 0;
+}
+.img-conteiner{
+    text-align: center;
+    margin-top: 50px;
+}
+.img-conteiner > img{
+    border:5px solid #d5c395;
+    height: 123px;
+}
+form{
+    position: relative;
+    width: 470px;
+    padding: 50px 60px 70px;
+    margin: 50px auto 0;
+    background: #d5c395;
+}
+footer {
+    font-size: 1em;
+    color: #EFE1C4;
+    text-align: center;
+}
+form::before {
+    position: absolute;
+    top: -30px;
+    left: 259px;
+    height: 35px;
+    width: 68px;
+    background: url(images/triangle.png) no-repeat 0 0;
+    content: '';
+}
+.submit {
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    max-width: 500px;
+    background: #927057;
+    color: #d5c395;
+    font-size: 1.5em;
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.submit:hover {
+    color: #fae7b0;
+    box-shadow: 0 0 3px #fff;
+}
+.name, .pass {
+    outline: none;
+    border: none;
+    background: #efe1c4;
+    padding: 10px 10px 10px 60px;
+    width: 85%;
+    font-size: 1.1em;
+    color: #927057;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.pass {
+    background: url(images/pass.png) no-repeat 12px 10px #efe1c4;
+}
+
+.name {
+    background: url(images/user.png)
+    no-repeat 12px 10px #efe1c4;
+}

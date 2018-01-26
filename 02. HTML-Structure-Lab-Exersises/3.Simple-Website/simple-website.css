@@ -1,0 +1,48 @@
+body{
+    background-color: #cccccc;
+    /*padding: 0;
+    margin: 0;*/
+}
+article > p{
+    font-size: 24px;
+}
+header > p{
+    font-style: italic ;
+}
+h1{
+    font-size: 28px;
+}
+section{
+    margin-left: 20px;
+}
+body{
+    background-color: #cccccc;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: gray;
+    color: inherit;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+li{
+    display: inline-block;/*premahva novite redove koito imahme preditova*/
+    width: 200px;
+    text-align: center;
+    size: 24px;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px;
+}
+ul{
+    list-style: none;
+    background-color: #444;
+}
+footer {
+    background: #444444;
+    color: #ffffff;
+    text-align: center;
+}
